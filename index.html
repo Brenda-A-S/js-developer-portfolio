@@ -26,23 +26,70 @@
 <body>
     <main class="main">
         <header class="header">
-            <img src="assets/imgs/header/foto-perfil.png" alt="Foto de Brenda A Silva" class="photo">
+            <img src="assets/imgs/header/foto-perfil.png" alt="Foto de Perfil" class="photo" id="profile.photo">
             <div>
                 <h1 class="header-title">
-                    Olá, <br> meu nome é <span>Brenda A Silva</span>
+                    Olá, <br> meu nome é <span id="profile.name"> Carregando...</span>
                 </h1>
                 <div class="infos">
-                    <p>Desenvolvedora Front-End</p>
-                    <p>São Paulo -BR</p>
+                    <p id="profile.job">Carregando...</p>
+                    <p id="profile.location">Carregando...</p>
                     <p>
-                        <a href="tel:(11) 9 9999-9999">(11) 9 9999-9999</a>
+                        <a href="tel:(11) 9 9999-9999" id="profile.phone"> Carregando...</a>
                     </p>
                     <p>
-                        <a href="mailto:email@gmail.com">email@gmail.com</a>
+                        <a href="mailto:email@gmail.com" id="profile.email"> Carregando...</a>
                     </p>
                 </div>
             </div>
         </header>
+
+        <!-- habilidades  -->
+        <section class="acordeon">
+            <button class="trigger">
+                <h2>Habilidades</h2>
+            </button>
+            <div class="content">
+                <div class="skills">
+                    <section class="tools">
+                        <h3>Habilidades Profissionais:</h3>
+                        <ul>
+                            <li>
+                                <img src="/portifolio/assets/imgs/icons/icon-html.svg" alt="HTML5" title="HTML5">
+                            </li>
+                            <li>
+                                <img src="/portifolio/assets/imgs/icons/icon-css.svg" alt="CSS3" title="CSS3">
+                            </li>
+                            <li>
+                                <img src="/portifolio/assets/imgs/icons/icon-js.svg" alt="JavaScript"
+                                    title="JavaScript">
+                            </li>
+                            <li>
+                                <img src="/portifolio/assets/imgs/icons/icon-ts.svg" alt="TypeScript"
+                                    title="TypeScript">
+                            </li>
+                        </ul>
+                    </section>
+                    <section class="personal" >
+                        <h3>Habilidades Pessoais:</h3>
+                        <ul id="profile.skills.softSkills">
+                            <li>
+                                <h3 class="title">Carregando...</h3>
+                            </li>
+                            <li>
+                                <h3 class="title">Carregando...</h3>
+                            </li>
+                            <li>
+                                <h3 class="title">Carregando...</h3>
+                            </li>
+                            <li>
+                                <h3 class="title">Carregando...</h3>
+                            </li>
+                        </ul>
+                    </section>
+                </div>
+            </div>
+        </section>
 
         <!-- idiomas -->
         <section class="acordeon">
@@ -60,6 +107,7 @@
                 </ul>
             </div>
         </section>
+
         <!-- portfolio -->
         <section class="acordeon">
             <button class="trigger">
@@ -86,6 +134,7 @@
                 </ul>
             </div>
         </section>
+
         <!-- experiencia profissional -->
         <section class="acordeon">
             <button class="trigger">
@@ -110,56 +159,12 @@
                 </ul>
             </div>
         </section>
-        <!-- habilidades  -->
-        <section class="acordeon open">
-            <button class="trigger">
-                <h2>Habilidades</h2>
-            </button>
-            <div class="content">
-                <div class="skills">
-                    <section class="tools">
-                        <h3>Habilidades Profissionais:</h3>
-                        <ul>
-                            <li>
-                                <img src="/portifolio/assets/imgs/icons/icon-html.svg" alt="HTML5" title="HTML5">
-                            </li>
-                            <li>
-                                <img src="/portifolio/assets/imgs/icons/icon-css.svg" alt="CSS3" title="CSS3">
-                            </li>
-                            <li>
-                                <img src="/portifolio/assets/imgs/icons/icon-js.svg" alt="JavaScript"
-                                    title="JavaScript">
-                            </li>
-                            <li>
-                                <img src="/portifolio/assets/imgs/icons/icon-ts.svg" alt="TypeScript"
-                                    title="TypeScript">
-                            </li>
-                        </ul>
-                    </section>
-                    <section class="personal">
-                        <h3>Habilidades Pessoais:</h3>
-                        <ul>
-                            <li>
-                                <h3 class="title">Site Cafeteria</h3>
-                            </li>
-                            <li>
-                                <h3 class="title">Site Cafeteria</h3>
-                            </li>
-                            <li>
-                                <h3 class="title">Site Cafeteria</h3>
-                            </li>
-                            <li>
-                                <h3 class="title">Site Cafeteria</h3>
-                            </li>
-                        </ul>
-                    </section>
-                </div>
-            </div>
-        </section>
 
     </main>
 
     <script src="assets/js/acordeon.js"></script>
+    <script src="assets/js/api.js"></script>
+    <script src="/portifolio/assets/js/main.js"></script>
 </body>
 
 </html>
