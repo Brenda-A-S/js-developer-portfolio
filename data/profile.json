@@ -8,16 +8,20 @@
     "skills": {
         "hardSkills": [
             {
-                "nome": "Android",
-                "logo": "TODO"
+                "nome": "JavaScript",
+                "logo": "https://raw.githubusercontent.com/Brenda-A-S/js-developer-portfolio/c3c6e97d11b4041a368bd4e2824e3159fa6e1692/data/imgs/icon-js.svg"
             },
             {
-                "nome": "Java",
-                "logo": "TODO"
+                "nome": "CSS",
+                "logo": "https://raw.githubusercontent.com/Brenda-A-S/js-developer-portfolio/c3c6e97d11b4041a368bd4e2824e3159fa6e1692/data/imgs/icon-css.svg"
             },
             {
-                "nome": "Kotlin",
-                "logo": "TODO"
+                "nome": "HTML",
+                "logo": "https://raw.githubusercontent.com/Brenda-A-S/js-developer-portfolio/c3c6e97d11b4041a368bd4e2824e3159fa6e1692/data/imgs/icon-html.svg"
+            },
+            {
+                "nome": "TypeScript",
+                "logo": "https://raw.githubusercontent.com/Brenda-A-S/js-developer-portfolio/c3c6e97d11b4041a368bd4e2824e3159fa6e1692/data/imgs/icon-ts.svg"
             }
         ],
         "softSkills": [
