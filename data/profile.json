@@ -8,19 +8,19 @@
     "skills": {
         "hardSkills": [
             {
-                "nome": "JavaScript",
+                "name": "JavaScript",
                 "logo": "https://raw.githubusercontent.com/Brenda-A-S/js-developer-portfolio/c3c6e97d11b4041a368bd4e2824e3159fa6e1692/data/imgs/icon-js.svg"
             },
             {
-                "nome": "CSS",
+                "name": "CSS",
                 "logo": "https://raw.githubusercontent.com/Brenda-A-S/js-developer-portfolio/c3c6e97d11b4041a368bd4e2824e3159fa6e1692/data/imgs/icon-css.svg"
             },
             {
-                "nome": "HTML",
+                "name": "HTML",
                 "logo": "https://raw.githubusercontent.com/Brenda-A-S/js-developer-portfolio/c3c6e97d11b4041a368bd4e2824e3159fa6e1692/data/imgs/icon-html.svg"
             },
             {
-                "nome": "TypeScript",
+                "name": "TypeScript",
                 "logo": "https://raw.githubusercontent.com/Brenda-A-S/js-developer-portfolio/c3c6e97d11b4041a368bd4e2824e3159fa6e1692/data/imgs/icon-ts.svg"
             }
         ],
