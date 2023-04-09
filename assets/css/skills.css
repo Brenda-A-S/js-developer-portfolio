@@ -1,0 +1,38 @@
+.skills {
+    display: flex;
+    flex-direction: column;
+    margin: 0 1rem .5rem 1rem;
+}
+
+.skills .personal ul,
+.skills .tools ul {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.skills .tools ul {
+    list-style: none;
+}
+
+.skills .tools ul li img {
+    max-width: 50px;
+    margin: .5rem;
+}
+
+.skills .personal ul li {
+    margin-left: 2rem;
+    padding: .5rem;
+}
+
+@media screen and (min-width: 768px){
+
+    .skills{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        place-items: start;
+    }
+}

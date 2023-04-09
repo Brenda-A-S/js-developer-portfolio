@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;400&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: black;
+    color: #fff;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.main{
+    margin: .5rem;
+    padding: 1rem;
+    border: 1px solid #fff;
+    border-radius: 1rem;
+}
+
+.main::before, .main::after {
+    content: '';
+    background-image: url('/portifolio/assets/imgs/background/background1.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: inline-block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 60vw;
+    height: 80vh;
+    z-index: -1;
+}
+
+.main::after {
+    content: '';
+    top: auto;
+    left: auto;
+    bottom: 0;
+    right: 0;
+    transform: rotate(180deg);
+}
+
+@media screen and (min-width: 768px){
+
+    .main{
+        max-width: 1024px;
+        margin: 1rem auto;
+    }
+}
