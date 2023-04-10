@@ -15,13 +15,13 @@
     margin: 0 1rem .5rem 1rem;
 }
 
-.portfolio li .title {
+.portfolio li h3 {
     display: flex;
     flex-direction: row;
     align-items: center;
 }
 
-.portfolio li .title.github::before {
+.portfolio li h3.github::before {
     content: '';
     display: inline-block;
     width: 1rem;
