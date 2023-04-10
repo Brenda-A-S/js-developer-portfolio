@@ -44,7 +44,7 @@
     display: inline-block;
     width: 1.5rem;
     height: 1rem;
-    background-image: url('assets/imgs/icons/icon-button.svg');
+    background-image: url('/assets/imgs/icons/icon-button.svg');
     background-repeat: no-repeat;
     background-size: contain;
 }
