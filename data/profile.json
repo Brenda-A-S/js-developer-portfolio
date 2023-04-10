@@ -33,8 +33,8 @@
     },
     "languages": [        
             "Português BR",            
-            "Inglês(Iniciante)",
-            "Espanhol(Iniciante)"
+            "Inglês (Iniciante)",
+            "Espanhol (Iniciante)"
     ],
     "educacao": [
         {
@@ -98,14 +98,14 @@
     ],
     "portfolio": [
         {
-            "nome": "Crie o seu NFT de Pokémon com Blockchain (DIO)",
-            "gitHub": "https://github.com/digitalinnovationone/formacao-blockchain-dio",
-            "certificado": "https://www.dio.me/certificate/34F1FBA1"
+            "name": "Site de Cafeteria com Bootstrap (DIO)",
+            "url": "https://github.com/Brenda-A-S/projetoSiteCafeteria",
+            "git": true
         },
         {
-            "nome": "App Nativo Sobre Futebol Feminino com Android Jetpack e Java (DIO)",
-            "gitHub": "https://github.com/digitalinnovationone/soccer-news-app",
-            "certificado": "https://www.dio.me/certificate/9A5090FC"
+            "name": "Desafio Layout Responsivo (DIO)",
+            "https://github.com/Brenda-A-S/LayoutResponsivoDiscordDesafio",
+            "git": true
         }
     ],
     "experiencias": [
