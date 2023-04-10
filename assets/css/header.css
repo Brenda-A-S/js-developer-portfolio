@@ -12,7 +12,7 @@
     display: inline-block;
     width: 2rem;
     height: 2rem;
-    background-image: url('/portifolio/assets/imgs/header/pontos.svg');
+    background-image: url('assets/imgs/header/pontos.svg');
     background-repeat: no-repeat;
     background-size: contain;
     position: absolute;
@@ -64,16 +64,16 @@
 
 /* background icons header */
 .infos p:nth-child(1)::before{
-    background-image: url('/portifolio/assets/imgs/icons/icon1.svg');
+    background-image: url('assets/imgs/icons/icon1.svg');
 }
 .infos p:nth-child(2)::before{
-    background-image: url('/portifolio/assets/imgs/icons/icon2.svg');
+    background-image: url('assets/imgs/icons/icon2.svg');
 }
 .infos p:nth-child(3)::before{
-    background-image: url('/portifolio/assets/imgs/icons/icon3.svg');
+    background-image: url('assets/imgs/icons/icon3.svg');
 }
 .infos p:nth-child(4)::before{
-    background-image: url('/portifolio/assets/imgs/icons/icon4.svg');
+    background-image: url('assets/imgs/icons/icon4.svg');
 }
 
 @media screen and (min-width: 768px){

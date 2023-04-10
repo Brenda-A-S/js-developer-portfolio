@@ -22,6 +22,6 @@
     height: .5rem;
     background-repeat: no-repeat;
     background-size: contain;
-    background-image: url('/portifolio/assets/imgs/icons/icon-list.svg');  
+    background-image: url('assets/imgs/icons/icon-list.svg');  
     margin-right: .5rem; 
 }

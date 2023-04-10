@@ -30,7 +30,7 @@ a:hover {
 
 .main::before, .main::after {
     content: '';
-    background-image: url('/portifolio/assets/imgs/background/background1.svg');
+    background-image: url('assets/imgs/background/background1.svg');
     background-repeat: no-repeat;
     background-size: contain;
     display: inline-block;
